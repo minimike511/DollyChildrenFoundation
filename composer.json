@@ -8,5 +8,8 @@
       "name": "Michael Park",
       "email": "Michael@developersfoundation.ca"
     }
-  ]
+  ],
+  "require": {
+    "sendgrid/sendgrid": "4.0.4"
+  }
 }

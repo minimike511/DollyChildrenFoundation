@@ -1,25 +1,23 @@
-nav{
-    background-color: #f49b02;
-}
-nav .container .row{
-    background-color: #f49b02;
-}
-.navbar-default .navbar-nav .navbar-brand > a{
-    background-color: #FFFFFF;
-    border-color: #000000;
-}
 
+.navbar-default{
+    background-color: white;
+    border-color: white;
+}
+.donatebutton{
+    color: white;
+    background-color: #f5a623;
+}
 #Header .container{
-    /background-image: url(../img/main/pic1.jpg);
+    background-image: url(../img/main/pic1.jpg);
 }
 
 #Header h1{
-    color: #f49b02;
+    color: #f5a623;
     font-size: 60px;
 }
 
 #About .container{
-    background-color: #f49b02;
+    background-color: #f5a623;
     padding: 5% 5% 5% 5%;
 }
 
@@ -41,6 +39,12 @@ nav .container .row{
     font-size: 24px;
 }
 
+#Mission .container{
+    height: 500px;
+    background-size: cover;
+    background-image: url(../img/main/pic3.jpg);
+}
+
 
 .section-bg-img{
     position: absolute;
@@ -56,4 +60,13 @@ nav .container .row{
 
 #contact>.container>.row{
     background-color: #ffce7a;
+}
+
+.footercolor{
+    color: white;
+}
+
+footer{
+    background-color: #f5a623;
+    font-family: Futura;
 }
